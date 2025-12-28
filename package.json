@@ -4,11 +4,15 @@
   "type": "module",
   "scripts": {
     "format": "prettier **/*.ts --write",
-    "lint": "eslint **/*.ts"
+    "lint": "eslint **/*.ts",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
     "@eslint/js": "latest",
     "eslint": "latest",
+    "husky": "latest",
     "prettier": "latest",
     "typescript-eslint": "latest"
   },
