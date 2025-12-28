@@ -2,6 +2,12 @@
   "name": "typescript-template",
   "main": "index.ts",
   "type": "module",
+  "scripts": {
+    "format": "prettier **/*.ts --write"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
