@@ -3,10 +3,14 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "format": "prettier **/*.ts --write"
+    "format": "prettier **/*.ts --write",
+    "lint": "eslint **/*.ts"
   },
   "devDependencies": {
-    "prettier": "latest"
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "prettier": "latest",
+    "typescript-eslint": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
